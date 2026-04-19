@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium brandable domain advueu.com — previously an established consumer electronics brand. Perfect for tech startups, e-commerce, and lifestyle products. Buy now or make an offer.">
+  <meta name="keywords" content="advueu, brandable domain, consumer electronics, tech startup domain, ecommerce brand">
+  <title>advueu.com — Premium Brandable Domain | Consumer Electronics Brand</title>
+  <link rel="canonical" href="https://advueu.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #13131a;
+      --surface2: #1c1c26;
+      --border: #2a2a3a;
+      --text: #e8e8f0;
+      --text-muted: #8888a0;
+      --accent: #6366f1;
+      --accent-light: #818cf8;
+      --green: #10b981;
+      --green-bg: rgba(16, 185, 129, 0.1);
+      --red: #ef4444;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* NAV */
+    nav {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .domain-badge {
+      font-size: 13px;
+      color: var(--text-muted);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--green);
+      background: var(--green-bg);
+      border: 1px solid var(--green);
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* HERO */
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+    .tld-label {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent-light);
+      background: rgba(99, 102, 241, 0.12);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      padding: 6px 16px;
+      border-radius: 30px;
+      margin-bottom: 24px;
+      letter-spacing: 0.05em;
+    }
+    h1 {
+      font-size: clamp(42px, 8vw, 72px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #e8e8f0 0%, #8888a0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .domain-name-highlight {
+      display: block;
+      font-size: clamp(48px, 10vw, 88px);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      background: linear-gradient(135deg, #ffffff 0%, #c8c8e0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .tagline {
+      font-size: 20px;
+      color: var(--text-muted);
+      margin: 20px 0 40px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* PRICE CARD */
+    .price-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px;
+      max-width: 520px;
+      margin: 0 auto 48px;
+      text-align: center;
+    }
+    .price-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .price {
+      font-size: 52px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.03em;
+      margin-bottom: 4px;
+    }
+    .price-note {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 14px 32px;
+      border-radius: 12px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 15px;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent-light); }
+    .fine-print {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 12px;
+    }
+    .fine-print a { color: var(--text-muted); text-decoration: underline; }
+
+    /* SECTIONS */
+    .section { padding: 56px 0; border-top: 1px solid var(--border); }
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent-light);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+    .section p { color: var(--text-muted); font-size: 16px; max-width: 680px; }
+
+    /* BRAND STORY */
+    .brand-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .brand-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+    }
+    .brand-card-icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .brand-card h4 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .brand-card p {
+      font-size: 13px !important;
+      color: var(--text-muted) !important;
+      line-height: 1.5 !important;
+    }
+
+    /* COMPARABLES */
+    .comp-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .comp-table th {
+      text-align: left;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .comp-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+    .comp-table tr:last-child td { border-bottom: none; }
+    .comp-table .comp-domain { color: var(--text); font-weight: 500; font-family: monospace; }
+    .comp-table .comp-price { color: var(--green); font-weight: 600; }
+    .comp-table .comp-type { font-size: 12px; }
+    .comp-table .comp-ratio { font-weight: 600; }
+    .comp-table .comp-ratio.high { color: var(--accent-light); }
+    .comp-table .comp-ratio.mid { color: var(--text); }
+    .comp-table .comp-ratio.low { color: var(--text-muted); }
+
+    /* VALUE BREAKDOWN */
+    .value-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .value-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 20px;
+      text-align: center;
+    }
+    .value-card .val {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }
+    .value-card .val-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* LEASE BANNER */
+    .lease-banner {
+      background: linear-gradient(135deg, rgba(99,102,241,0.15) 0%, rgba(16,185,129,0.1) 100%);
+      border: 1px solid rgba(99,102,241,0.3);
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin-top: 32px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .lease-icon { font-size: 36px; }
+    .lease-text { flex: 1; min-width: 200px; }
+    .lease-text h4 { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+    .lease-text p { font-size: 14px !important; color: var(--text-muted) !important; }
+    .lease-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .lease-cta:hover { background: var(--accent-light); }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 0;
+      text-align: center;
+    }
+    footer p { font-size: 13px; color: var(--text-muted); }
+    footer a { color: var(--accent-light); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ANIMATIONS */
+    .fade-in { animation: fadeIn 0.6s ease forwards; opacity: 0; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    .hero { animation: fadeIn 0.5s ease forwards; }
+    .section { animation: fadeIn 0.5s ease forwards; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container">
+    <span class="domain-badge">advueu.com</span>
+    <span class="status-badge"><span class="status-dot"></span> Listed on Afternic</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <span class="tld-label">Premium .COM Domain</span>
+    <h1>
+      <span class="domain-name-highlight">advueu.com</span>
+    </h1>
+    <p class="tagline">An established consumer electronics brand — reborn. Premium, brandable, and ready for its next chapter.</p>
+
+    <div class="price-card">
+      <div class="price-label">Buy It Now — BIN</div>
+      <div class="price">$1,200</div>
+      <div class="price-note">or make an offer above $500</div>
+      <div class="cta-row">
+        <a href="https://www.afternic.com/forsale/advueu.com" class="btn-primary">Buy Now on Afternic</a>
+        <a href="https://www.afternic.com/forsale/advueu.com" class="btn-secondary">Make an Offer</a>
+      </div>
+      <p class="fine-print">
+        Secure escrow via <a href="https://www.afternic.com" target="_blank">Afternic</a> · Fast transfer · Lease to Own available
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND STORY -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">The Brand Story</div>
+    <h2 class="section-title">A Name That Already Means Something</h2>
+    <p>
+      Advueu was an established consumer electronics brand — known for TVs and displays that delivered solid performance at accessible price points. The brand earned a loyal following before the company ceased operations, leaving behind a domain with genuine brand equity and recognition in the electronics space.
+    </p>
+    <p style="margin-top: 16px;">
+      <strong style="color: var(--text);">This isn't a random dictionary word.</strong> Advueu has existing brand memory, a pronounceable structure, and the kind of phonetic appeal that makes it memorable. For the right buyer — a tech startup, lifestyle brand, or consumer electronics company — this name has immediate value that would cost tens of thousands to build from scratch.
+    </p>
+
+    <div class="brand-grid">
+      <div class="brand-card">
+        <div class="brand-card-icon">📺</div>
+        <h4>Consumer Electronics Heritage</h4>
+        <p>Previously used for TVs and displays — a proven product category with high consumer trust.</p>
+      </div>
+      <div class="brand-card">
+        <div class="brand-card-icon">🌐</div>
+        <h4>Global Brand Potential</h4>
+        <p>Pronounceable across languages — works in English, Spanish, French, and beyond. No negative meanings in major markets.</p>
+      </div>
+      <div class="brand-card">
+        <div class="brand-card-icon">⚡</div>
+        <h4>Instant Recognition</h4>
+        <p>Short, memorable, and unique. No hyphens, no numbers, no confusion. Pure brandable domain.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUE METRICS -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">Domain Intelligence</div>
+    <h2 class="section-title">What the Market Says</h2>
+    <p>
+      Third-party appraisal data and comparable sales provide a clear picture of value. This domain sits well within — and above — comparable sale ranges for similar brandable consumer electronics domains.
+    </p>
+
+    <div class="value-grid">
+      <div class="value-card">
+        <div class="val">$1,800</div>
+        <div class="val-label">Estibot Appraisal</div>
+      </div>
+      <div class="value-card">
+        <div class="val">6</div>
+        <div class="val-label">Characters</div>
+      </div>
+      <div class="value-card">
+        <div class="val">2</div>
+        <div class="val-label">Extensions Taken</div>
+      </div>
+      <div class="value-card">
+        <div class="value-card">
+          <div class="val">$1,200</div>
+          <div class="val-label">Your Buy-It-Now Price</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lease-banner">
+      <div class="lease-icon">🔑</div>
+      <div class="lease-text">
+        <h4>Lease to Own Available</h4>
+        <p>Don't have $1,200 upfront? No problem. Finance this domain over 12-36 months with Lease to Own. Apply directly through Afternic.</p>
+      </div>
+      <a href="https://www.afternic.com/forsale/advueu.com" class="lease-cta">Learn About Lease to Own →</a>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARABLE SALES -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">Comparable Sales</div>
+    <h2 class="section-title">What Similar Brands Sold For</h2>
+    <p>
+      These are real domain sales from established marketplaces. At $1,200, advueu.com is competitively priced against similar brandable domains in the consumer electronics and lifestyle tech space.
+    </p>
+
+    <table class="comp-table">
+      <thead>
+        <tr>
+          <th>Domain</th>
+          <th>Category</th>
+          <th>Sale Price</th>
+          <th>Estibot</th>
+          <th>Premium</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="comp-domain">advueu.com</td>
+          <td class="comp-type">Consumer Electronics</td>
+          <td class="comp-price">$1,200 (ASK)</td>
+          <td>$1,800</td>
+          <td class="comp-ratio mid">Listed below appraisal</td>
+        </tr>
+        <tr>
+          <td class="comp-domain">velueu.com</td>
+          <td class="comp-type">Brandable</td>
+          <td class="comp-price">$988</td>
+          <td>$1,200</td>
+          <td class="comp-ratio high">Sold 82% of appraisal</td>
+        </tr>
+        <tr>
+          <td class="comp-domain">advect.com</td>
+          <td class="comp-type">Tech / SaaS</td>
+          <td class="comp-price">$2,200</td>
+          <td>$1,890</td>
+          <td class="comp-ratio high">Sold 116% of appraisal</td>
+        </tr>
+        <tr>
+          <td class="comp-domain">viveo.com</td>
+          <td class="comp-type">Health / Brandable</td>
+          <td class="comp-price">$1,575</td>
+          <td>$1,575</td>
+          <td class="comp-ratio mid">Sold at appraisal</td>
+        </tr>
+        <tr>
+          <td class="comp-domain">evue.com</td>
+          <td class="comp-type">Brandable</td>
+          <td class="comp-price">$1,100</td>
+          <td>$1,288</td>
+          <td class="comp-ratio mid">Sold 85% of appraisal</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top: 14px; font-size: 13px;">
+      Sources: Afternic, Namecheap Marketplace, Estibot. Comparable domains selected for similar length, brandability, and category.
+    </p>
+  </div>
+</section>
+
+<!-- WHY BUY -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">For Prospective Buyers</div>
+    <h2 class="section-title">Why Pay $1,200 for a Domain?</h2>
+    <p>
+      Most buyers hesitate on domain purchases because they don't understand the math. Here's the simple reality: building brand recognition for a new name costs $50,000-$500,000 in advertising. A premium domain eliminates that starting from day one.
+    </p>
+
+    <div class="brand-grid" style="margin-top: 28px;">
+      <div class="brand-card">
+        <div class="brand-card-icon">🏆</div>
+        <h4>SEO Instant Authority</h4>
+        <p>Exact-match domains for electronics, lifestyle, and tech niches carry instant credibility with search engines. You skip the Google sandbox entirely.</p>
+      </div>
+      <div class="brand-card">
+        <div class="brand-card-icon">📈</div>
+        <h4>Resale Value</h4>
+        <p>Brandable domains appreciate. As the tech and consumer electronics space grows, premium short .com domains only become more scarce and valuable.</p>
+      </div>
+      <div class="brand-card">
+        <div class="brand-card-icon">🤝</div>
+        <h4>Partnership Credibility</h4>
+        <p>Show up to investor meetings, partnerships, and press with a premium domain. It signals you're serious, established, and thinking long-term.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>
+      Domain: <strong>advueu.com</strong> · Listed on <a href="https://www.afternic.com/forsale/advueu.com" target="_blank">Afternic (GoDaddy)</a><br>
+      Secure escrow transactions · Fast registrar transfer · Lease to Own available<br><br>
+      <em>This domain landing page is operated by the seller. All transactions handled through Afternic.</em>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
